@@ -39,6 +39,7 @@ const App = () => {
 
   return (
     <div style={{ width: '100%', height: 800, position: 'relative' }}>
+    <Header />  {/* <-- Header is rendered here */}
     <LiquidEther
       colors={[ '#5227FF', '#FF9FFC', '#B19EEF' ]}
       mouseForce={10}
