@@ -1,7 +1,9 @@
+import './Header.css';
+
 function Header() {
   return (
     <header>
-      <h1>Marco&apos;s Portfolio</h1>
+      <h1>Marco's Portfolio</h1>
     </header>
   );
 }

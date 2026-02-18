@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import CardNav from './CardNav'
 import LiquidEther from './LiquidEther';
+import Header from './Header';
 const App = () => {
   const items = [
     {
@@ -39,7 +40,7 @@ const App = () => {
 
   return (
     <div style={{ width: '100%', height: 800, position: 'relative' }}>
-    <Header />  {/* <-- Header is rendered here */}
+    <Header style={{zIndex:0}}/>
     <LiquidEther
       colors={[ '#5227FF', '#FF9FFC', '#B19EEF' ]}
       mouseForce={10}
